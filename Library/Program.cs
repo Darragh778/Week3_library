@@ -7,9 +7,7 @@ Book book = new Book("C# for beginners", "Bill Gates", 12345678);
 book.DisplayBookInfo();
 
 // Add another book
-Book book1 = new Book(); 
+Book book1 = new Book("C# for advanced", "Steve Jobs", 87654321);
 
-book1.Title = "C# for advanced";
-book1.Author = "Steve Jobs";
-book1.ISBN = 87654321;
+
 book1.DisplayBookInfo();
