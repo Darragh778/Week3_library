@@ -1,11 +1,9 @@
 ﻿using Library;
 
-Book book = new Book();
+Book book = new Book("C# for beginners", "Bill Gates", 12345678);
 
 // This is info for the book class
-book.Title = "C# for beginners";
-book.Author = "Bill Gates";
-book.ISBN = 12345678;
+
 book.DisplayBookInfo();
 
 // Add another book
